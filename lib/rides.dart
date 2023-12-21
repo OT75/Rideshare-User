@@ -205,6 +205,8 @@ class _ridesState extends State<rides> {
                           'Destination': ride['Destination'],
                           'ride_id': rideID,
                           'RideIDForRides': ride['RideIDForRides'],
+                          'Time' : ride['Time'],
+
                         });
 
                         // Add a document to the 'users' collection with the same unique ride_id
@@ -272,6 +274,7 @@ class _ridesState extends State<rides> {
                       'Destination' : ride['Destination'],
                       'ride_id': rideID,
                       'RideIDForRides' : ride['RideIDForRides'],
+                      'Time' :  ride['Time'],
                     });
 
                     // Add a document to the 'users' collection with the same unique ride_id
@@ -365,6 +368,8 @@ class _ridesState extends State<rides> {
                   'Destination': ride['Destination'],
                   'ride_id': rideID,
                   'RideIDForRides': ride['RideIDForRides'],
+                  'Time' :  ride['Time'],
+
                 });
 
                 // Add a document to the 'users' collection with the same unique ride_id
@@ -432,6 +437,8 @@ class _ridesState extends State<rides> {
                 'Destination' : ride['Destination'],
                 'ride_id': rideID,
                 'RideIDForRides' : ride['RideIDForRides'],
+                  'Time' : ride['Time'],
+
                 });
 
                 // Add a document to the 'users' collection with the same unique ride_id
